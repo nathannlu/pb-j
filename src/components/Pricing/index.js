@@ -5,9 +5,9 @@ import Section1 from './Section1';
 import Section2 from './Section2';
 import Footer from '../Footer';
 
-const Pricing = () => {
+export default function() = {
 	return (
-		<div>
+		<>
 			<Navbar />
 			<Header />
 			<Section1 />
@@ -16,8 +16,7 @@ const Pricing = () => {
 			<div className="pt-24">
 				<Footer />
 			</div>
-		</div>
+		</>
 	)
 };
 
-export default Pricing;

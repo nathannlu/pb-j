@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav className="container mx-auto py-8 flex flex-wrap items-center">
 			<Link className="flex items-center" to="/">
 				<img className="inline-block mr-4" src="/logo-small.png" style={{height:'30px'}} />
-				<img className="inline-block mt-4" src="http://www.graaphic.co/logo.png" style={{height: '30px'}} />
+				<img className="inline-block mt-4" src="/logo.png" style={{height: '30px'}} />
 			</Link>
 
 			<div className="ml-auto inline-block">
