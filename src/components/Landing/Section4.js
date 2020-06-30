@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function() {
 	return (
-		<div className="container mx-auto flex flex-wrap py-40">
+		<div className="container mx-auto flex flex-wrap mb-12 py-40">
 			<div className="w-full text-center pb-16">
 				<h2 className="">
 					 Check out some of our work 	

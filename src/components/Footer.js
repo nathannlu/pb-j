@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 	return (
@@ -8,13 +9,14 @@ const Footer = () => {
 					<h2 className="inline-block text-white">
 						Replacing the need for in-house designers 
 					</h2>
-						<button className="btn btn-black inline-block ml-auto">Pricing and plans</button>
+					<Link to="/pricing" className="btn btn-black inline-block ml-auto">Pricing and plans</Link>
 				</div>
 			</div>
 			<div className="container mx-auto pb-24 pt-40">
 				<div className="pt-16">
-					<img src="/logo-white.png" style={{height: '30px', opacity: .9}} />
-					
+					<Link to="/">
+						<img src="/logo-white.png" style={{height: '30px', opacity: .9}} />
+					</Link>
 				</div>
 				<div className="pt-4 flex flex-wrap" style={{fontSize: '1.6rem'}}>
 					<div className="inline-block">© 2020 Graaphic, all rights reserved</div>

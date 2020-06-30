@@ -14446,6 +14446,11 @@ h5 {
   color: white;
 }
 
+.nav-link {
+  font-size: 1.6rem;
+  margin-right: 2rem;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
