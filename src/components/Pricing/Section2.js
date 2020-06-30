@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function() {
 	return (
-		<section className="container mx-auto pb-40">
+		<section className="container mx-auto py-40">
 			<h2 className="pb-8 text-center">All Plans Include</h2>
 			<div className="flex flex-wrap">
 				<div className="w-1/3 p-16">

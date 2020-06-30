@@ -10,8 +10,8 @@ function App() {
 		<Router>
 			<div className="App">
 				<Route exact path="/" component={Landing} />
-				<Route exact path="/pricing" component={Pricing} />
 				<Route exact path="/work" component={Work} />
+				<Route exact path="/pricing" component={Pricing} />
 			</div>
 		</Router>
   );
