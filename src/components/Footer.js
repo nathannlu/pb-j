@@ -14,8 +14,9 @@ const Footer = () => {
 			</div>
 			<div className="container mx-auto pb-24 pt-40">
 				<div className="pt-16">
-					<Link to="/">
-						<img src="/logo-white.png" style={{height: '30px', opacity: .9}} />
+					<Link className="flex items-center" to="/">
+						<img className="mr-4" src="/logo-small.png" style={{height: '30px', opacity: .9}} />
+						<img className="mt-4" src="/logo-white.png" style={{height: '30px', opacity: .9}} />
 					</Link>
 				</div>
 				<div className="pt-4 flex flex-wrap" style={{fontSize: '1.6rem'}}>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => { 
 	return (
@@ -6,15 +7,15 @@ const Header = () => {
 			<div className="container mx-auto flex flex-wrap items-center h-full">
 				<div className="w-1/2 pr-40 pb-24">
 					<h1 style={{color: 'white'}} className="pb-6">
-		Design is Expensive and Time Consuming.<br />
-It Doesn’t Have to Be.
+						Design is Expensive and Time Consuming.<br />
+						It Doesn’t Have to Be.
 					</h1>
 					<p className="pb-6">
 						Lorem ipsum dolor sit, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et amet.
 					</p>
-					<button className="btn btn-black">
+					<Link to="/pricing" className="btn btn-black">
 						Sign up now
-					</button>
+					</Link>
 				</div>
 				<div className="w-1/2 h-full relative">
 					<img 
