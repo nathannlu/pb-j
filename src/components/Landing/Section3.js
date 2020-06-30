@@ -5,6 +5,13 @@ export default function() {
 		<section style={{backgroundColor: '#f5f5f5'}}>
 			<div className="w-2/3 mx-auto py-40 px-24">
 				<div className="w-1/2 pb-24 mx-auto text-center">
+					<div
+						className="inline-block shadow-lg mb-8"
+						style={{backgroundColor: '#585BF2'}}
+					>
+						<img src="https://preview.cruip.com/spike/images/feature-tile-icon-01.svg" />
+					</div>
+
 					<h2 className="pb-6">
 						Trusted the world over
 					</h2>

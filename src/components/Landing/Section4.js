@@ -9,18 +9,18 @@ export default function() {
 				</h2>
 			</div>
 			<div className="w-1/3 px-6">
-				<div className="bg-gray-500">
-					<img src="http://www.graaphic.co/work/hostgenius_2.jpg" />	
+				<div className="shadow-lg border rounded-md">
+					<img src="https://cdn.dribbble.com/users/1545448/screenshots/4803348/pod.png" />	
 				</div>
 			</div>
 			<div className="w-1/3 px-6">
-				<div className="bg-gray-500">
-					<img src="http://www.graaphic.co/work/hostgenius_2.jpg" />	
+				<div className="shadow-lg border rounded-md">
+					<img src="https://cdn.dribbble.com/users/6921/screenshots/7038279/media/8af0ee9d9948ee88e43039cf7eb7f1ba.png" />	
 				</div>
 			</div>
 			<div className="w-1/3 px-6">
-				<div className="bg-gray-500">
-					<img src="http://www.graaphic.co/work/hostgenius_2.jpg" />	
+				<div className="shadow-lg border rounded-md">
+					<img src="https://cdn.dribbble.com/users/1545448/screenshots/4035937/canvas_ad.png" />	
 				</div>
 			</div>
 		</div>
