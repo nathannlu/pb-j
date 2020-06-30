@@ -5,6 +5,12 @@ export default function() {
 		<section className="container py-40 mx-auto">
 			<div className="flex flex-wrap items-center">
 				<div className="w-1/2 px-24">
+					<div
+						className="inline-block shadow-lg mb-8"
+						style={{backgroundColor: '#585BF2'}}
+					>
+						<img src="https://preview.cruip.com/spike/images/feature-tile-icon-01.svg" />
+					</div>
 					<h3 className="pb-6">
 						Dedicated professional designer.
 					</h3>
@@ -54,6 +60,12 @@ export default function() {
 					</div>
 				</div> 
 				<div className="w-1/2 px-24">
+					<div
+						className="inline-block shadow-lg mb-8"
+						style={{backgroundColor: '#585BF2'}}
+					>
+						<img src="https://preview.cruip.com/spike/images/feature-tile-icon-02.svg" />
+					</div>
 					<h3 className="pb-6">
 						Dedicated professional designer.
 					</h3>
