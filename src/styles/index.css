@@ -14343,6 +14343,22 @@ video {
   transition-delay: 1000ms;
 }
 
+@font-face {
+  font-family: 'Graphik';
+
+  font-weight: 300;
+
+  src: url('../fonts/Graphik-300-Light.otf');
+}
+
+@font-face {
+  font-family: 'Graphik';
+
+  font-weight: 600;
+
+  src: url('../fonts/Graphik-600-Semibold.otf');
+}
+
 html {
   /* 1 rem = 16 px  */
   font-size: 50%;
@@ -14362,7 +14378,8 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Graphik', sans-serif;
+  font-weight: 300;
   font-size: 2rem;
   color: #333;
   overflow-x: hidden;
@@ -14371,7 +14388,7 @@ body {
 h1 {
   font-size: 4.4rem;
   line-height: 5.4rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-weight: 600;
   color: #19212C;
 }
@@ -14379,13 +14396,13 @@ h1 {
 h2 {
   font-size: 3.8rem;
   line-height: 4.8rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-weight: 600;
   color: #19212C;
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Graphik', sans-serif;
   font-size: 3.2rem;
   line-height: 4.2rem;
   font-weight: 600;

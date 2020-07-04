@@ -11,7 +11,7 @@ export default function() {
 	return (
 		<section className="py-40">
 			<div className="w-1/2 px-40 mx-auto text-center">
-				<div className="pb-24">
+				<div className="pb-16">
 					<img className="mx-auto mb-6" src="http://pixelcurve.epizy.com/rappix-live/image/img-art.png" />
 					<h2 className="pb-6">
 						The simplest way to get good designs.
