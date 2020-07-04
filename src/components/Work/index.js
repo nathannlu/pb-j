@@ -11,6 +11,7 @@ export default function() {
 			<Navbar />
 			<Header />
 			<Section1 />
+			<Section1 />
 			<Section2 />
 			<div className="pt-24">
 				<Footer />
