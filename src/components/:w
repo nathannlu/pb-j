@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<footer className="w-full" style={{backgroundColor: '#19212C'}}>
 			<div className="container mx-auto relative">
-				<div className="absolute w-full rounded-lg shadow px-16 py-24" style={{transform: 'translateY(-50%)', backgroundColor: '#4746E0'}}>
+				<div className="absolute w-full rounded-lg shadow px-16 py-24" style={{transform: 'translateY(-50%)', backgroundColor: '#776FFF'}}>
 					<div className="w-1/2 mx-auto text-white text-center pb-16">
 						<h2 className="inline-block text-white pb-4">
 							Get started with Graaphic today. 
@@ -14,9 +14,9 @@ const Footer = () => {
 							Replacing in-house designers.
 						</p>
 					</div>
-					<div className="text-center">
-						<Link to="/pricing" className="btn bg-white inline-block mr-4">Schedule a demo</Link>
-						<Link to="/pricing" className="btn btn-outline inline-block">Pricing and plans</Link>
+					<div className="flex">
+						<Link to="/pricing" className="btn bg-white inline-block ml-auto">Pricing and plans</Link>
+						<Link to="/pricing" className="btn btn-outline inline-block mr-auto">Pricing and plans</Link>
 					</div>
 				</div>
 			</div>
