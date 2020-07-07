@@ -9,8 +9,8 @@ export default function() {
 			</div>
 			<div className="container mx-auto flex flex-wrap">
 				<div className="w-full">
-					<div className="w-1/2 text-center mx-auto pb-16">
-						<h2 className="text-black">
+					<div className="w-1/2 text-center mx-auto pb-24">
+						<h2 className="text-white">
 							Whatever you need, we've got the right plan for you.
 						</h2>
 					</div>

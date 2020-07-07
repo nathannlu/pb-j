@@ -14479,8 +14479,8 @@ h5 {
 }
 
 .bg-primary {
-  background-color: rgba(66, 61, 206, .8);
-  box-shadow: 0 0 10px rgb(66,61,206), 0 0 50px rgb(66,61,206);
+  background-color: rgba(35, 27, 100, .8);
+  box-shadow: 0 0 10px rgb(35,27,100), 0 0 50px rgb(35,27,100);
 }
 
 .owl-stage {
@@ -14492,6 +14492,31 @@ h5 {
   border-radius: 4px;
   box-shadow: 0 1px 5px 3px #eee;
   overflow: hidden;
+}
+
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  top: 0;
+  height: 100%;
+  align-items: center;
+  margin-top: 0;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.owl-nav button {
+  z-index: 2;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #8838DB;
+  box-shadow: 0 1px 7px 2px #7c7878;
 }
 
 @keyframes glowing {

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function() {
 	return (
-		<section className="container py-40 mx-auto">
+		<section style={{backgroundColor: '#f5f5f5'}} className="container py-40 mx-auto">
 			<div className="flex flex-wrap items-center">
 				<div className="w-1/2 px-24">
 					<div

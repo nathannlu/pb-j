@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<div>
 			<div className="text-white overflow-hidden" style={{height: '80rem'}}>
-				<div className="absolute w-full h-full overflow-hidden" style={{height: '80rem',backgroundColor: '#423DCE', zIndex: -1}}>
+				<div className="absolute w-full h-full overflow-hidden" style={{height: '80rem',backgroundColor: '#231B64', zIndex: -1}}>
 					<Particles />
 				</div>
 				<div className="container mx-auto flex flex-wrap items-center h-full">

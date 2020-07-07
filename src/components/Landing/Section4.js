@@ -7,7 +7,9 @@ const options = {
 	nav: true,
 	loop: true,
 	autoplay: true,
-	stagePadding: 200 
+	stagePadding: 200, 
+	navElement: 'button',
+	navText: ['prev', 'next']
 };
 
 export default function() {
@@ -23,11 +25,11 @@ export default function() {
 					</p>
 				</div>
 				<div className="w-full pt-8">
-					<button className="btn btn-primary">See more work</button>
+					<button className="btn btn-black">See more work</button>
 				</div>
 			</div>
 			<div className="w-full">
-				<OwlCarousel options={options} className="flex flex-wrap">
+				<OwlCarousel options={options} className="flex flex-wrap relative">
 					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>
 					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>
 					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>

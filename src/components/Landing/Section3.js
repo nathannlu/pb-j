@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function() {
 	return (
-		<section style={{backgroundColor: '#f5f5f5'}}>
+		<section>
 			<div className="w-2/3 mx-auto py-40 px-24">
 				<div className="w-1/2 pb-24 mx-auto text-center">
 					<div

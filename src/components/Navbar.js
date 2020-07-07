@@ -5,7 +5,7 @@ const Navbar = () => {
 	return (
 		<nav 
 			className="px-24 mx-auto py-8 flex flex-wrap items-center"
-			style={{backgroundColor:'#423DCE', boxShadow: 'rgba(3,27,78,0.1) 0px 2px 4px'}}
+			style={{backgroundColor:'#231B64', boxShadow: 'rgba(3,27,78,0.1) 0px 2px 4px'}}
 		>
 			<div className="flex items-center">
 				<Link to="/">
