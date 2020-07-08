@@ -3,13 +3,13 @@ import React, {useState, useEffect} from 'react';
 export default function() {
 	const [stage, setStage] = useState(0);
 	const steps = [
-		'Make a request',
-		'Drafts & revisions',
-		'Complete & download'
+		'01. Make a request',
+		'02. Drafts & revisions',
+		'03. Complete & download'
 	];
 
 	return (
-		<section className="py-40">
+		<section className="pt-40 overflow-hidden">
 			<div className="container mx-auto flex flex-wrap">
 				<div className="w-2/5 pr-16">
 					<div className="pb-16">
@@ -43,14 +43,13 @@ export default function() {
 						))}
 					</ul>
 				</div>
-				<div className="w-3/5">
+				<div className="w-3/5" style={{height: '76rem'}}>
 					{{
-						0: <img className="shadow-xl rounded-lg border" src="/dashboard-1.png" />,
-						1: <img src="https://preview.cruip.com/cube/images/hero-image.png" />,
-						2: <img src="https://preview.cruip.com/cube/images/hero-image.png" />,
+						0: <img className="shadow-xl rounded-lg border" style={{borderBottom: 0, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}} src="/dashboard-1.png" />,
+						1:<img className="shadow-xl rounded-lg border" style={{borderBottom: 0, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}} src="/dashboard-2.png" />,
+						2: <img className="shadow-xl rounded-lg border" style={{borderBottom: 0, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}} src="/dashboard-3.png" />,
 					}[stage]}
 				</div>
-
 			</div>
 		</section>
 	);

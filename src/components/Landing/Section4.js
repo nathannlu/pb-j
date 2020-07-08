@@ -17,6 +17,15 @@ export default function() {
 		<div className="flex flex-wrap mb-12 py-40">
 			<div className="container mx-auto pb-16">
 				<div className="w-1/2">
+					<div className="flex items-center pb-8">
+						<img src="https://emotive.io/assets/icons/icon-tin.svg" />
+						<h6 
+							className="pl-8" 
+							style={{textTransform: 'uppercase', fontSize: '1.4rem', fontWeight: 'bold', opacity: .8}}
+						>
+							Past work
+						</h6>
+					</div>
 					<h2 className="pb-6">
 						 Check out some of our work 	
 					</h2>
