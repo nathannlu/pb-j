@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function() {
 	return (
-		<section style={{backgroundColor: '#f5f5f5'}} className="py-40">
+		<section id="section-2" style={{backgroundColor: '#f5f5f5'}} className="py-40">
 			<div className="container mx-auto">
 				<h2 className="pb-8 text-center">All Plans Include</h2>
 				<div className="flex flex-wrap">
-					<div className="w-1/3 p-16">
+					<div className="md:w-1/3 p-16">
 
 						<div
 							className="inline-block shadow-lg mb-8"
@@ -17,7 +17,7 @@ export default function() {
 						<h4 className="font-bold mb-4">Unlimited Requests</h4>
 						<p>Request as many designs as your heart desires. Even if you’ve already submitted 100.</p>
 					</div>
-					<div className="w-1/3 p-16">
+					<div className="w-full md:w-1/3 p-16">
 						<div
 							className="inline-block shadow-lg mb-8"
 							style={{backgroundColor: '#585BF2'}}
@@ -27,7 +27,7 @@ export default function() {
 						<h4 className="font-bold mb-4">Unlimited Revisions</h4>
 						<p>We’ll keep editing until you think it’s absolutely perfect. We won’t stop you.</p>	
 					</div>
-					<div className="w-1/3 p-16">
+					<div className="w-full md:w-1/3 p-16">
 						<div
 							className="inline-block shadow-lg mb-8"
 							style={{backgroundColor: '#585BF2'}}
@@ -39,7 +39,7 @@ export default function() {
 					</div>
 				</div>
 				<div className="flex flex-wrap">
-					<div className="w-1/3 p-16">
+					<div className="w-full md:w-1/3 p-16">
 						<div
 							className="inline-block shadow-lg mb-8"
 							style={{backgroundColor: '#585BF2'}}
@@ -49,7 +49,7 @@ export default function() {
 						<h4 className="font-bold mb-4">Fast or Faster Turnaround Times</h4>
 						<p>Most requests only take one or two business days — or even same-day for Pro accounts.</p>
 					</div>
-					<div className="w-1/3 p-16">
+					<div className="w-full md:w-1/3 p-16">
 						<div
 							className="inline-block shadow-lg mb-8"
 							style={{backgroundColor: '#585BF2'}}
@@ -59,7 +59,7 @@ export default function() {
 						<h4 className="font-bold mb-4">24/7 Live Chat Support</h4>
 						<p>Run into an issue? Just chat with our world-class support team in real time, available 24/5.</p>
 					</div>
-					<div className="w-1/3 p-16">
+					<div className="w-full md:w-1/3 p-16">
 						<div
 							className="inline-block shadow-lg mb-8"
 							style={{backgroundColor: '#585BF2'}}

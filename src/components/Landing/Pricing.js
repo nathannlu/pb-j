@@ -3,19 +3,19 @@ import Particles from './Particles';
 
 export default function() {
 	return (
-		<section className="py-40 w-full relative flex flex-wrap mx-auto">
+		<section id="section-pricing" className="py-40 w-full relative flex flex-wrap mx-auto">
 			<div className="absolute top-0 w-full h-full overflow-hidden" style={{backgroundColor: '#231B64',zIndex: -1}}>
 				<Particles />
 			</div>
 			<div className="container mx-auto flex flex-wrap">
 				<div className="w-full">
-					<div className="w-1/2 text-center mx-auto pb-24">
+					<div className="w-full md:w-1/2 text-center mx-auto pb-24">
 						<h2 className="text-white">
 							Whatever you need, we've got the right plan for you.
 						</h2>
 					</div>
 				</div>
-				<div className="w-1/2 px-8">
+				<div className="w-full md:w-1/2 px-8">
 					<div className="shadow-lg p-16 rounded-lg" style={{backgroundColor: '#f5f5f5'}}>
 						<div className="pb-24">
 							<h1 style={{color: '#423DCE'}}>
@@ -42,7 +42,7 @@ export default function() {
 						</div>
 					</div>
 				</div>
-				<div className="w-1/2 px-8">
+				<div className="w-full md:w-1/2 px-8">
 					<div className="shadow-lg p-16 rounded-lg" style={{backgroundColor: '#f5f5f5'}}>
 						<div className="pb-24">
 							<h1 style={{color: '#423DCE'}}>

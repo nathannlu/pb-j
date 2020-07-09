@@ -9,8 +9,8 @@ const Header = () => {
 				<div className="absolute w-full h-full overflow-hidden" style={{height: '80rem',backgroundColor: '#231B64', zIndex: -1}}>
 					<Particles />
 				</div>
-				<div className="container mx-auto flex flex-wrap items-center h-full">
-					<div className="w-1/2 pr-40 pb-24"> 
+				<div className="px-4 md:px-0 container text-center md:text-left mx-auto flex flex-wrap items-center h-full">
+					<div className="w-full md:w-1/2 md:pr-40 pb-24"> 
 							<div>
 							<h1 style={{color: 'white'}} className="inline-block bg-primary mb-12">
 								Our designers understand your needs.
@@ -19,7 +19,7 @@ const Header = () => {
 								No HR. No interviews. No drama. In a few clicks, Graaphic gives you access to a professional designer ready to jump into your creative ecosystem.
 							</p>
 							</div>
-						<div className="bg-primary flex">
+						<div className="bg-primary justify-center md:justify-start flex">
 							<Link onClick={()=>console.log('set appointment')} style={{color: '#5662EC'}} className="btn bg-white mr-8 text-black border btn-glow">
 								Schedule Demo 📅
 							</Link>
@@ -32,7 +32,7 @@ const Header = () => {
 							<small>&#10003; 7 day free trial</small>
 						</div>
 					</div>
-					<div className="w-1/2 h-full relative">
+					<div className="w-full md:w-1/2 h-full relative">
 						<img 
 							className="absolute" 
 							style={{
@@ -55,19 +55,19 @@ const Header = () => {
 						</p>
 					</div>
 					<div className="flex flex-wrap pb-6">
-						<div className="w-1/5 px-8">	
+						<div className="w-1/2 md:w-1/5 px-8">	
 							<img src="/jackchow.png" style={{height: '80px', filter: 'grayscale(100%)'}} />
 						</div>
-						<div className="w-1/5 px-8">	
+						<div className="w-1/2 md:w-1/5 px-8">	
 							<img src="/clients/sothebys.png" style={{filter: 'grayscale(100%)'}} />
 						</div>
-						<div className="w-1/5 px-8">	
+						<div className="w-1/2 md:w-1/5 px-8">	
 							<img src="/clients/oakwyn.png" className="mx-auto" style={{height: '80px', filter: 'grayscale(100%)'}} />
 						</div>
-						<div className="w-1/5 px-8">	
+						<div className="w-1/2 md:w-1/5 px-8">	
 							<img src="/clients/hostgenius.png" style={{filter: 'grayscale(100%)'}} />
 						</div>
-						<div className="w-1/5 px-8">	
+						<div className="w-1/2 md:w-1/5 mx-auto px-8">	
 							<img src="/clients/blockspace.png" style={{filter: 'grayscale(100%)'}} />
 						</div>
 					</div>

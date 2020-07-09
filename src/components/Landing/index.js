@@ -14,6 +14,7 @@ export default function() {
 		<>
 			<Navbar />
 			<Header />
+			<Section0 />
 			<Section1 />
 			<hr />
 			<Section2 />

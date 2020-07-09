@@ -2,16 +2,11 @@ import React, {useState, useEffect} from 'react';
 
 export default function() {
 	const [stage, setStage] = useState(0);
-	const steps = [
-		'Make a request',
-		'Drafts & revisions',
-		'Complete & download'
-	];
 
 	return (
-		<section className="py-40">
+		<section id="section-3" className="py-40">
 			<div className="container mx-auto flex flex-wrap">
-				<div className="w-2/5 pr-16">
+				<div className="w-full md:w-2/5 pr-16">
 					<div className="pb-16">
 						<div className="flex items-center pb-8">
 							<img src="https://emotive.io/assets/icons/icon-tin.svg" />
@@ -43,7 +38,7 @@ export default function() {
 						</div>
 					</div>
 				</div>
-				<div className="w-3/5">
+				<div className="w-full md:w-3/5">
 					<img className="w-full" src="/testimonials.png" />
 				</div>
 			</div>

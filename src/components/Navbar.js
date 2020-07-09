@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
 	return (
@@ -13,9 +14,10 @@ const Navbar = () => {
 					<img className="inline-block mt-2" src="/logo-white.png" style={{height: '25px'}} />
 				</Link>
 				<div className="ml-24" style={{color: '#fff', opacity: .8}}>
-					<Link className="nav-link" to="/work">Work</Link>
-					<Link className="nav-link" to="/pricing">Pricing</Link>
-					<Link className="nav-link" to="/about">About</Link>
+					<HashLink className="nav-link" to="#section-1">How it works</HashLink>
+					<HashLink className="nav-link" to="#pricing">Pricing</HashLink>
+					<HashLink className="nav-link" to="#section-4">Previous clients</HashLink>
+					<Link className="nav-link" to="/about">Contact</Link>
 				</div>
 			</div>
 

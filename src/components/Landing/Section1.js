@@ -9,9 +9,9 @@ export default function() {
 	];
 
 	return (
-		<section className="pt-40 overflow-hidden">
+		<section id="section-1" className="pt-40 overflow-hidden">
 			<div className="container mx-auto flex flex-wrap">
-				<div className="w-2/5 pr-16">
+				<div className="w-full md:w-2/5 pr-16">
 					<div className="pb-16">
 						<div className="flex items-center pb-8">
 							<img src="https://emotive.io/assets/icons/icon-tin.svg" />
@@ -43,7 +43,7 @@ export default function() {
 						))}
 					</ul>
 				</div>
-				<div className="w-3/5" style={{height: '76rem'}}>
+				<div className="w-full md:w-3/5" style={{height: '76rem'}}>
 					{{
 						0: <img className="shadow-xl rounded-lg border" style={{borderBottom: 0, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}} src="/dashboard-1.png" />,
 						1:<img className="shadow-xl rounded-lg border" style={{borderBottom: 0, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}} src="/dashboard-2.png" />,

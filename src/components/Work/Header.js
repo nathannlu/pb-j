@@ -1,9 +1,14 @@
 import React from 'react';
+import Particles from '../Landing/Particles';
 
 const Header = () => {
 	return (
 		<header className="h-screen">
-			<div className="flex" style={{backgroundColor: '#FA587F', height: '600px'}}>
+			<div className="flex relative" style={{height: '600px'}}>
+				
+				<div className="absolute w-full h-full overflow-hidden" style={{height: '60rem',backgroundColor: '#FA6D68', zIndex: -1}}>
+					<Particles />
+				</div>
 				<div className="text-center container mx-auto text-white relative pt-40">
 					<div className="w-1/2 pb-16 mx-auto">
 						<h1 className="text-white pb-8">

@@ -14,9 +14,9 @@ const options = {
 
 export default function() {
 	return (
-		<div className="flex flex-wrap mb-12 py-40">
+		<div id="section-4" className="flex flex-wrap mb-12 py-40">
 			<div className="container mx-auto pb-16">
-				<div className="w-1/2">
+				<div className="w-full md:w-1/2">
 					<div className="flex items-center pb-8">
 						<img src="https://emotive.io/assets/icons/icon-tin.svg" />
 						<h6 
