@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import Calendly from './Calendly';
 
 const Footer = () => {
 	return (
@@ -15,8 +17,9 @@ const Footer = () => {
 						</p>
 					</div>
 					<div className="text-center">
-						<Link to="/pricing" className="btn bg-white inline-block mr-4">Schedule a demo</Link>
-						<Link to="/pricing" className="btn btn-outline inline-block">Pricing and plans</Link>
+						<div className="btn bg-white inline-block mr-4"><Calendly /></div>
+						<HashLink to="#section-pricing" className="btn btn-outline inline-block">Pricing and plans</HashLink>
+
 					</div>
 				</div>
 			</div>
@@ -30,10 +33,10 @@ const Footer = () => {
 				<div className="pt-4 flex flex-wrap text-white" style={{fontSize: '1.6rem'}}>
 					<div className="inline-block">© 2020 Graaphic, all rights reserved</div>
 					<ul className="inline-block ml-auto flex flex-wrap">
-						<li className="pr-12"><Link to="/work">Work</Link></li>
-						<li className="pr-12"><Link to="/pricing">Pricing</Link></li>
-						<li className="pr-12"><Link to="/about">About</Link></li>
-						<li><Link to="/contact">Contact</Link></li>
+						<li><HashLink className="ml-12" to="#section-1">How it works</HashLink></li>
+						<li><HashLink className="ml-12" to="#section-pricing">Pricing</HashLink></li>
+						<li><HashLink className="ml-12" to="#section-4">Previous clients</HashLink></li>
+						<li><Link className="ml-12" to="#">Contact</Link></li>
 					</ul>
 				</div>
 			</div> 

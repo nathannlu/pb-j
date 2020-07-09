@@ -9,12 +9,12 @@ const options = {
 	autoplay: true,
 	stagePadding: 200, 
 	navElement: 'button',
-	navText: ['prev', 'next']
+	navText: ['‹', '›']
 };
 
 export default function() {
 	return (
-		<div id="section-4" className="flex flex-wrap mb-12 py-40">
+		<div id="section-4" className="overflow-hidden flex flex-wrap mb-12 py-40">
 			<div className="container mx-auto pb-16">
 				<div className="w-full md:w-1/2">
 					<div className="flex items-center pb-8">
@@ -30,12 +30,15 @@ export default function() {
 						 Check out some of our work 	
 					</h2>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Whether it’s a new logo, marketing materials, advertisements, or website/app design,
+						there's always a qualified designer for the job.
 					</p>
 				</div>
+		{/*
 				<div className="w-full pt-8">
 					<button className="btn btn-black">See more work</button>
 				</div>
+		*/}
 			</div>
 			<div className="w-full">
 				<OwlCarousel options={options} className="flex flex-wrap relative">

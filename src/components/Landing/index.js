@@ -15,9 +15,11 @@ export default function() {
 			<Navbar />
 			<Header />
 			<Section0 />
+			<hr />
 			<Section1 />
 			<hr />
 			<Section2 />
+			<hr />
 			<Section3 />
 			<Pricing />
 			<hr />

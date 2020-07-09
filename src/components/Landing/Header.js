@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import Particles from './Particles';
+import Calendly from '../Calendly';
 
 const Header = () => { 
 	return (
@@ -19,9 +20,9 @@ const Header = () => {
 								No HR. No interviews. No drama. In a few clicks, Graaphic gives you access to a professional designer ready to jump into your creative ecosystem.
 							</p>
 							</div>
-						<div className="bg-primary justify-center md:justify-start flex">
+						<div className="bg-primary inline-block justify-center md:justify-start flex">
 							<Link onClick={()=>console.log('set appointment')} style={{color: '#5662EC'}} className="btn bg-white mr-8 text-black border btn-glow">
-								Schedule Demo 📅
+								<Calendly />
 							</Link>
 							<Link to="/pricing" className="btn btn-outline">
 								View Pricing	
@@ -29,7 +30,7 @@ const Header = () => {
 						</div>
 						<div className="pt-12">
 							<small className="mr-12">&#10003; 1 click set up</small>
-							<small>&#10003; 7 day free trial</small>
+							<small>&#10003; 24h turnover rate</small>
 						</div>
 					</div>
 					<div className="w-full md:w-1/2 h-full relative">

@@ -15,7 +15,7 @@ const Navbar = () => {
 				</Link>
 				<div className="ml-24" style={{color: '#fff', opacity: .8}}>
 					<HashLink className="nav-link" to="#section-1">How it works</HashLink>
-					<HashLink className="nav-link" to="#pricing">Pricing</HashLink>
+					<HashLink className="nav-link" to="#section-pricing">Pricing</HashLink>
 					<HashLink className="nav-link" to="#section-4">Previous clients</HashLink>
 					<Link className="nav-link" to="/about">Contact</Link>
 				</div>

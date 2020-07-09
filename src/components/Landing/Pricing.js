@@ -1,5 +1,6 @@
 import React from 'react';
 import Particles from './Particles'; 
+import Calendly from '../Calendly';
 
 export default function() {
 	return (
@@ -37,7 +38,7 @@ export default function() {
 							</ul>
 							<hr />
 							<div className="pt-8">
-								<a href="https://app.graaphic.co/onboard" className="btn btn-black">Get a demo</a>
+								<div className="btn btn-black"><Calendly /></div>
 							</div>
 						</div>
 					</div>
@@ -64,7 +65,7 @@ export default function() {
 							</ul>
 							<hr />
 							<div className="pt-8">
-								<a href="https://app.graaphic.co/onboard" className="btn btn-black">Get a demo</a>
+								<div className="btn btn-black"><Calendly /></div>
 							</div>
 						</div>
 					</div>
