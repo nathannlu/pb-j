@@ -16,7 +16,7 @@ export default function() {
 						</h2>
 					</div>
 				</div>
-				<div className="w-full md:w-1/2 px-8">
+				<div className="w-full md:w-1/2 h-full px-8">
 					<div className="shadow-lg p-16 rounded-lg" style={{backgroundColor: '#f5f5f5'}}>
 						<div className="pb-24">
 							<h1 style={{color: '#423DCE'}}>
@@ -32,9 +32,11 @@ export default function() {
 							</h5>
 							<hr />
 							<ul className="py-4 list-disc" style={{listStylePosition: 'inside'}}>
-								<li className="py-2">Excepteur sint occaecat velit</li>
-								<li className="py-2">Excepteur sint occaecat velit</li>
-								<li className="py-2">Excepteur sint occaecat velit</li>
+								<li className="py-2">Dedicated designer</li>
+								<li className="py-2">Unlimited requests</li>
+								<li className="py-2">Unlimited revisions</li>
+								<li className="py-2">1-2 day turnaround</li>
+								<li className="py-2">30-day satisfaction guarantee</li>
 							</ul>
 							<hr />
 							<div className="pt-8">
@@ -43,7 +45,7 @@ export default function() {
 						</div>
 					</div>
 				</div>
-				<div className="w-full md:w-1/2 px-8">
+				<div className="w-full md:w-1/2 h-full px-8">
 					<div className="shadow-lg p-16 rounded-lg" style={{backgroundColor: '#f5f5f5'}}>
 						<div className="pb-24">
 							<h1 style={{color: '#423DCE'}}>
@@ -59,9 +61,13 @@ export default function() {
 							</h5>
 							<hr />
 							<ul className="py-4 list-disc" style={{listStylePosition: 'inside'}}>
-								<li className="py-2">Excepteur sint occaecat velit</li>
-								<li className="py-2">Excepteur sint occaecat velit</li>
-								<li className="py-2">Excepteur sint occaecat velit</li>
+								<li className="py-2">Dedicated designer</li>
+								<li className="py-2">Unlimited requests</li>
+								<li className="py-2">Unlimited revisions</li>
+								<li className="py-2 font-bold">Advanced infographics</li>
+								<li className="py-2 font-bold">Real-time collaboration</li>
+								<li className="py-2 font-bold">same day turnaround</li>
+								<li className="py-2 font-bold">30-day satisfaction guarantee</li>
 							</ul>
 							<hr />
 							<div className="pt-8">

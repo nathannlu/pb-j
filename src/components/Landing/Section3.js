@@ -16,7 +16,8 @@ export default function() {
 						Trusted the world over
 					</h2>
 					<p className="">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. 
+						Thank you to the thousands of customers who have allowed us to be
+						a part of their teams and be a part of their success stories
 					</p>
 				</div>
 

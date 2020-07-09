@@ -26,7 +26,7 @@ export default function() {
 							The simplest way to get good designs.
 						</h2>
 						<p className="pb-8">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua.
+							With Graaphic you can request as many designs as needed — even if you’ve already submitted 100. Plus with unlimited revisions, we’ll keep designing until it’s perfect.
 						</p>
 					</div>
 
