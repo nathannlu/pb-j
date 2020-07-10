@@ -66,7 +66,7 @@ export default function() {
 								<li className="py-2">Unlimited revisions</li>
 								<li className="py-2 font-bold">Advanced infographics</li>
 								<li className="py-2 font-bold">Real-time collaboration</li>
-								<li className="py-2 font-bold">same day turnaround</li>
+								<li className="py-2 font-bold">Same day turnaround</li>
 								<li className="py-2 font-bold">30-day satisfaction guarantee</li>
 							</ul>
 							<hr />
