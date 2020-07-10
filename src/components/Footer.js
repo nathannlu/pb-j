@@ -36,7 +36,7 @@ const Footer = () => {
 						<li><HashLink className="ml-12" to="#section-1">How it works</HashLink></li>
 						<li><HashLink className="ml-12" to="#section-pricing">Pricing</HashLink></li>
 						<li><HashLink className="ml-12" to="#section-4">Previous clients</HashLink></li>
-						<li><Link className="ml-12" to="#">Contact</Link></li>
+						<li><a className="nav-link" href="https://graaphicd.typeform.com/to/BAFUZkmF">Contact</a></li>
 					</ul>
 				</div>
 			</div> 
