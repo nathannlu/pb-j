@@ -17,7 +17,7 @@ const Navbar = () => {
 					<HashLink className="nav-link" to="#section-1">How it works</HashLink>
 					<HashLink className="nav-link" to="#section-pricing">Pricing</HashLink>
 					<HashLink className="nav-link" to="#section-4">Previous clients</HashLink>
-					<Link className="nav-link" to="/about">Contact</Link>
+					<a className="nav-link" href="https://graaphicd.typeform.com/to/BAFUZkmF">Contact</a>
 				</div>
 			</div>
 
