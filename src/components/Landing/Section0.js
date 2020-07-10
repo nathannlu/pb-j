@@ -24,7 +24,7 @@ export default function() {
 							<img className="mx-auto" style={{height: '10rem'}} src="https://image.flaticon.com/icons/svg/2844/2844506.svg" />
 						</div>
 						<h4 className="font-bold mb-4">Dedicated designers</h4>
-						<p>We’ll keep editing until you think it’s absolutely perfect. We won’t stop you.</p>	
+						<p>Work with your designer directly, on a first-name basis. No friction, no middlemen.</p>
 					</div>
 
 					<div className="w-full md:w-1/3 p-16">
@@ -40,7 +40,7 @@ export default function() {
 							<img className="mx-auto" style={{height: '10rem'}} src="https://image.flaticon.com/icons/svg/2844/2844618.svg" />
 						</div>
 						<h4 className="font-bold mb-4">24 hour turnover rate</h4>
-						<p>Work with your designer directly, on a first-name basis. No friction, no middlemen.</p>
+						<p>Most requests only take one or two business days — or even same-day for Pro accounts.</p>
 					</div>
 				</div>
 			</div>
