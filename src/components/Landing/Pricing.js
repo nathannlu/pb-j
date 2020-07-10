@@ -39,8 +39,11 @@ export default function() {
 								<li className="py-2">30-day satisfaction guarantee</li>
 							</ul>
 							<hr />
-							<div className="pt-8">
-								<div className="btn btn-black"><Calendly /></div>
+							<div className="pt-8 flex">
+								<h3>
+								$399
+								</h3>
+							<div className="btn btn-black ml-auto"><Calendly /></div>
 							</div>
 						</div>
 					</div>
@@ -70,8 +73,11 @@ export default function() {
 								<li className="py-2 font-bold">30-day satisfaction guarantee</li>
 							</ul>
 							<hr />
-							<div className="pt-8">
-								<div className="btn btn-black"><Calendly /></div>
+							<div className="pt-8 flex">
+								<h3>
+								$769
+								</h3>
+								<div className="btn btn-black ml-auto"><Calendly /></div>
 							</div>
 						</div>
 					</div>
