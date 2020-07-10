@@ -42,12 +42,12 @@ export default function() {
 			</div>
 			<div className="w-full">
 				<OwlCarousel options={options} className="flex flex-wrap relative">
-					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>
-					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>
-					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>
-					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>
-					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>
-					<div className="w-full block bg-red-100"><img src="https://penji.co/wp-content/uploads/2019/09/wine-500x500.jpg" /></div>
+					<div className="w-full block bg-red-100"><img src="https://cdn.dribbble.com/users/757683/screenshots/11932184/media/010349de88cff4894e7bef70d63e0fbf.jpg" /></div>
+					<div className="w-full block bg-red-100"><img src="https://cdn.dribbble.com/users/757683/screenshots/11290151/media/564e0dcbe81023f726ceaa85ba91b44f.jpg" /></div>
+					<div className="w-full block bg-red-100"><img src="https://cdn.dribbble.com/users/757683/screenshots/10847785/media/c385e04cb6c421c748b12d301730bd41.jpg" /></div>
+					<div className="w-full block bg-red-100"><img src="https://cdn.dribbble.com/users/757683/screenshots/10970419/media/26a6a2b7e710f1ff9d3d6ba4a7328f04.jpg" /></div>
+					<div className="w-full block bg-red-100"><img src="https://cdn.dribbble.com/users/757683/screenshots/7333583/media/133520cf4e04becae97e87b5e68c7dbf.jpg" /></div>
+					<div className="w-full block bg-red-100"><img src="https://cdn.dribbble.com/users/757683/screenshots/7161093/media/9cd8daa79627a7d3116a79a121257181.jpg" /></div>
 				</OwlCarousel>
 			</div>
 			{/*
