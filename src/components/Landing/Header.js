@@ -35,14 +35,7 @@ const Header = () => {
 					</div>
 					<div className="w-full md:w-1/2 h-full relative">
 						<img 
-							className="absolute" 
-							style={{
-								left: '-20%',
-								width: '170%',
-								maxWidth: '170%',
-								top: '50%', 
-								transform: 'translateY(-50%)'
-							}} 
+							className="absolute hero" 
 							src="/hero.png" 
 						/>
 					</div>

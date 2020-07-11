@@ -16,6 +16,14 @@
 	src: url('../fonts/Graphik-600-Semibold.otf');
 }
 
+.hero {
+	left: -20%;
+	width: 170%;
+	max-width: 170%;
+	top: 25%;
+	transform: translateY(-50%);
+}
+
 html {
   /* 1 rem = 16 px  */
   font-size: 50%;
@@ -25,12 +33,18 @@ html {
   html {
     font-size: 56.25%;
   }
+	.hero {
+		top: 50%;
+	}
 }
 
 @media only screen and (min-width: 768px) {
   html {
     font-size: 62.5%;
   }
+	.hero {
+		top: 40%;
+	}
 }
 
 body {
@@ -176,6 +190,24 @@ h5 {
 	-webkit-box-shadow: 0 1px 4px 1px #7c7878;
 	-moz-box-shadow: 0 1px 4px 1px #7c7878;
 	box-shadow: 0 1px 7px 2px #7c7878;
+}
+
+.bruh > nav { 
+	background-color: transparent !important;
+}
+
+.bruh > nav nav {
+	align-items: center;
+}
+
+.bruh > nav nav nav button {
+	font-size: 2rem;
+}
+
+.bruh > nav a {
+	font-size: 1.5rem;
+	margin-right: 2.5rem;
+	font-weight: 600;
 }
 
 @keyframes glowing {

@@ -17,9 +17,8 @@ const Footer = () => {
 						</p>
 					</div>
 					<div className="text-center">
-						<div className="btn bg-white inline-block mr-4"><Calendly /></div>
+						<div className="btn bg-white inline-block md:mr-4"><Calendly /></div>
 						<HashLink to="#section-pricing" className="btn btn-outline inline-block">Pricing and plans</HashLink>
-
 					</div>
 				</div>
 			</div>
@@ -33,10 +32,10 @@ const Footer = () => {
 				<div className="pt-4 flex flex-wrap text-white" style={{fontSize: '1.6rem'}}>
 					<div className="inline-block">© 2020 Graaphic, all rights reserved</div>
 					<ul className="inline-block ml-auto flex flex-wrap">
-						<li><HashLink className="ml-12" to="#section-1">How it works</HashLink></li>
-						<li><HashLink className="ml-12" to="#section-pricing">Pricing</HashLink></li>
-						<li><HashLink className="ml-12" to="#section-4">Previous clients</HashLink></li>
-						<li><a className="nav-link" href="https://graaphicd.typeform.com/to/BAFUZkmF">Contact</a></li>
+						<li><HashLink className="md:ml-12" to="#section-1">How it works</HashLink></li>
+						<li><HashLink className="md:ml-12" to="#section-pricing">Pricing</HashLink></li>
+						<li><HashLink className="md:ml-12" to="#section-4">Portfolio</HashLink></li>
+						<li><a className="md:ml-12" href="https://graaphicd.typeform.com/to/BAFUZkmF">Contact</a></li>
 					</ul>
 				</div>
 			</div> 

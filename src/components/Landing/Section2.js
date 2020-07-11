@@ -4,7 +4,7 @@ export default function() {
 	return (
 		<section style={{backgroundColor: '#f5f5f5'}} className="container py-40 mx-auto">
 			<div className="flex flex-wrap items-center">
-				<div className="w-1/2 px-24">
+				<div className="w-full md:w-1/2 px-24">
 					<div
 						className="inline-block shadow-lg mb-8"
 						style={{backgroundColor: '#585BF2'}}

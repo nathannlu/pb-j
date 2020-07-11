@@ -5,8 +5,8 @@ export default function() {
 
 	return (
 		<section id="section-3" className="py-40">
-			<div className="container mx-auto flex flex-wrap">
-				<div className="w-full md:w-2/5 pr-16">
+			<div className="px-4 md:px-0 container mx-auto flex flex-wrap">
+				<div className="w-full md:w-2/5 md:pr-16">
 					<div className="pb-16">
 						<div className="flex items-center pb-8">
 							<img src="https://emotive.io/assets/icons/icon-tin.svg" />
@@ -20,9 +20,9 @@ export default function() {
 						<h2 className="pb-6">
 							Our customers are the most satisfied.
 						</h2>
-						<p className="pb-8">
-Thank you to the thousands of customers who have allowed us to be
-a part of their teams and be a part of their success stories
+						<p className="md:pb-8">
+							Thank you to the thousands of customers who have allowed us to be
+							a part of their teams and be a part of their success stories
 						</p>
 					</div>
 
@@ -31,7 +31,7 @@ a part of their teams and be a part of their success stories
 								
 						</div>
 						<div style={{fontSize: '1.4rem'}}>
-Graaphic’s user-friendly platform allowed me to easily communicate with designers to express my needs in a logo. They replied with edits quickly and ensured I was satisfied with the design before submitting the final version to me.
+							Graaphic’s user-friendly platform allowed me to easily communicate with designers to express my needs in a logo. They replied with edits quickly and ensured I was satisfied with the design before submitting the final version to me.
 						</div>
 						<div className="pt-8" style={{fontSize: '1.4rem'}}>
 							<div style={{fontWeight: 'bold'}}>Charles Mullany</div>

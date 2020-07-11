@@ -3,7 +3,7 @@ import React from 'react';
 export default function() {
 	return (
 		<section id="section-0" style={{backgroundColor: '#fff'}} className="py-40">
-			<div className="container mx-auto">
+			<div className="px-4 md:px-0 container mx-auto">
 				<div className="flex items-center pb-8">
 					<div className="flex items-center pr-24 mx-auto">
 						<img src="https://emotive.io/assets/icons/icon-tin.svg" />
@@ -15,7 +15,7 @@ export default function() {
 						</h6>
 					</div>
 				</div>
-				<h2 className="pb-6 w-1/2 mx-auto text-center">
+				<h2 className="pb-6 w-full md:w-1/2 mx-auto text-center">
 					Unlimited Graphic Design at a Fixed Monthly Price
 				</h2>
 				<div className="flex flex-wrap text-center">

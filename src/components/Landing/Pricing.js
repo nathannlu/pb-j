@@ -16,7 +16,7 @@ export default function() {
 						</h2>
 					</div>
 				</div>
-				<div className="w-full md:w-1/2 h-full px-8">
+				<div className="w-full md:w-1/2 pb-8 px-8">
 					<div className="shadow-lg p-16 rounded-lg" style={{backgroundColor: '#f5f5f5'}}>
 						<div className="pb-24">
 							<h1 style={{color: '#423DCE'}}>
@@ -48,7 +48,7 @@ export default function() {
 						</div>
 					</div>
 				</div>
-				<div className="w-full md:w-1/2 h-full px-8">
+				<div className="w-full md:w-1/2 pb-8 px-8">
 					<div className="shadow-lg p-16 rounded-lg" style={{backgroundColor: '#f5f5f5'}}>
 						<div className="pb-24">
 							<h1 style={{color: '#423DCE'}}>

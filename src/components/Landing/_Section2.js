@@ -6,8 +6,7 @@ export default function() {
 			<div className="container mx-auto">
 				<h2 className="pb-8 text-center">Membership benefits</h2>
 				<div className="flex flex-wrap">
-					<div className="md:w-1/3 p-16">
-
+					<div className="w-full md:w-1/3 p-16">
 						<div className="mb-8">
 							<img style={{height: '10rem'}} src="https://image.flaticon.com/icons/svg/2844/2844203.svg" />
 						</div>
