@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import Particles from './Particles';
+import { HashLink } from 'react-router-hash-link';
 import Calendly from '../Calendly';
 
 const Header = () => { 
@@ -21,12 +22,12 @@ const Header = () => {
 							</p>
 							</div>
 						<div className="bg-primary inline-block justify-center md:justify-start flex">
-							<Link onClick={()=>console.log('set appointment')} style={{color: '#5662EC'}} className="btn bg-white mr-8 text-black border btn-glow">
+							<button style={{color: '#5662EC'}} className="calendly-btn mr-8 text-black">
 								<Calendly />
-							</Link>
-							<Link to="/pricing" className="btn btn-outline">
+							</button>
+							<HashLink to="#section-pricing" className="btn btn-outline">
 								View Pricing	
-							</Link>
+							</HashLink>
 						</div>
 						<div className="pt-12">
 							<small className="mr-12">&#10003; 1 click set up</small>

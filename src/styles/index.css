@@ -14553,6 +14553,18 @@ h5 {
   font-weight: 600;
 }
 
+.calendly-btn a {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  transition: all .2s ease;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: white;
+  animation: glowing 3s infinite;
+}
+
 @keyframes glowing {
   0% {
     box-shadow: 0 0 3px #fff;
