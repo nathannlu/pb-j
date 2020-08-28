@@ -31,7 +31,7 @@ export default function() {
 			<CaseStudiesItem
 				caption="Creative Technology"
 				title="Assemble"
-				description="Meet the little fuck that's redefining watercooler conversations."
+				description="Meet the robot that's redefining watercooler conversations."
 				src="/garden-cover.png"
 			/>
 		</>
