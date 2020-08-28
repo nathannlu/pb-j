@@ -1,32 +1,39 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import Header from './Header';
-import Section0 from './Section0';
-import Section1 from './Section1';
-import Section2 from './_Section2';
-import Section3 from './_Section3';
-import Pricing from './Pricing';
-import Section4 from './Section4';
-import Footer from '../Footer';
+import MenuBar from '../MenuBar';
+import CaseStudiesHeader from '../CaseStudiesHeader';
+import CaseStudiesItem from '../CaseStudiesItem';
 
 export default function() {
 	return (
 		<>
-			<Navbar />
+			<MenuBar />
 			<Header />
-			<Section0 />
-			<hr />
-			<Section1 />
-			<hr />
-			<Section2 />
-			<hr />
-			<Section3 />
-			<Pricing />
-			<hr />
-			<Section4 />
-			<div className="pt-40">
-				<Footer />
-			</div>
+			<CaseStudiesHeader />
+			<CaseStudiesItem
+				caption="Creative Technology"
+				title="HostGenius"
+				description="A brand revamp that demystifies HostGenius' mission."
+				src="/hostgenius-cover.png"
+			/>
+			<CaseStudiesItem
+				caption="Creative Technology"
+				title="ThriveBar"
+				description="Rethinking the accessibility of beauty services."
+				src="/thrivebar-cover.png"
+			/>
+			<CaseStudiesItem
+				caption="Creative Technology"
+				title="gARden"
+				description="Gardening meets AR meets community building."
+				src="/garden-cover.png"
+			/>
+			<CaseStudiesItem
+				caption="Creative Technology"
+				title="Assemble"
+				description="Meet the little fuck that's redefining watercooler conversations."
+				src="/garden-cover.png"
+			/>
 		</>
 	);
 };

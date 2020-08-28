@@ -1,0 +1,43 @@
+.CaseStudiesItem {
+	position: relative;
+}
+
+.CaseStudiesItem .main {
+	padding-bottom: 14rem;	
+}
+
+.CaseStudiesItem .container {
+	padding-top: 14rem;
+}
+
+.CaseStudiesItem .divider {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 1px;
+	background: rgba(0,0,0,.1);
+}
+
+.CaseStudiesItem .image {
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	top: 0;
+	left: 7.2rem;
+	filter: blur(5px);
+	transition: all .3s;
+}
+
+.CaseStudiesItem:hover .image {
+	opacity: 1;
+	filter: blur(0);
+}
+
+.CaseStudiesItem:hover h3 {
+	color: #ffffff;
+}
+
+.CaseStudiesItem:hover h4 {
+	color: rgba(255,255,255,.5);
+}

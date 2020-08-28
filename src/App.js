@@ -3,15 +3,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HttpsRedirect from 'react-https-redirect';
 
 import Landing from './components/Landing';
-import Pricing from './components/Pricing';
-import Work from './components/Work';
-import About from './components/About';
 
 function App() {
   return (
 		<HttpsRedirect>
 			<Router>
-				<div className="App">
+				<div className="App relative">
 					<Switch>
 						<Route exact path="/" component={Landing} />
 						{/*

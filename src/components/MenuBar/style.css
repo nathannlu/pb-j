@@ -1,0 +1,23 @@
+.MenuBar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 7.2rem;
+	height: 100%;
+}
+
+.MenuBar .line {
+	height: 100%;
+	position: absolute;
+	right: 0;
+	width: 1px;
+	left: auto;
+}
+
+.MenuBar .line .background {
+	background-color: #b1b1b1;
+	opacity: .4;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}

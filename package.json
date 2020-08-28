@@ -1,5 +1,6 @@
 {
-  "name": "graaphic-landing",
+  "homepage": "https://pbjcreative.ca",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,7 +36,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/index.css",
-    "watch:css": "postcss src/styles/tailwind.css -o src/styles/index.css"
+    "watch:css": "postcss src/styles/tailwind.css -o src/styles/index.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
