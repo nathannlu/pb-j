@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './style.css';
 
 const CaseStudiesItem = props => {
