@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import './style.css';
 
 const CaseStudiesItem = props => {
 	return (
-		<section className="CaseStudiesItem overflow-hidden">
+		<Link to={props.url} className="CaseStudiesItem overflow-hidden">
 			<div className="divider"></div>
 			<img className="image" style={{zIndex: -1}} src={props.src} />
 			<div className="container mx-auto flex flex-wrap">
@@ -18,7 +19,7 @@ const CaseStudiesItem = props => {
 					</h3>
 				</div>
 			</div>
-		</section>
+		</Link>
 	)
 };
 

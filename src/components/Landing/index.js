@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from '../Footer';
 import MenuBar from '../MenuBar';
 import CaseStudiesHeader from '../CaseStudiesHeader';
 import CaseStudiesItem from '../CaseStudiesItem';
@@ -15,6 +16,7 @@ export default function() {
 				title="HostGenius"
 				description="A brand revamp that demystifies HostGenius' mission."
 				src="/hostgenius-cover.png"
+				url="/work/hostgenius"
 			/>
 			<CaseStudiesItem
 				caption="Creative Technology"
@@ -24,16 +26,11 @@ export default function() {
 			/>
 			<CaseStudiesItem
 				caption="Creative Technology"
-				title="gARden"
-				description="Gardening meets AR meets community building."
-				src="/garden-cover.png"
+				title="Teamtown"
+				description="Dashboard for founders to build their company upon"
+				src="/teamtown-cover.png"
 			/>
-			<CaseStudiesItem
-				caption="Creative Technology"
-				title="Assemble"
-				description="Meet the robot that's redefining watercooler conversations."
-				src="/garden-cover.png"
-			/>
+			<Footer />
 		</>
 	);
 };

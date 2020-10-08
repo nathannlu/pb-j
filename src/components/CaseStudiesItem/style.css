@@ -1,5 +1,7 @@
 .CaseStudiesItem {
 	position: relative;
+	display: block;
+	margin-left: 7.2rem;
 }
 
 .CaseStudiesItem .main {
@@ -24,7 +26,6 @@
 	opacity: 0;
 	width: 100%;
 	top: 0;
-	left: 7.2rem;
 	filter: blur(5px);
 	transition: all .3s;
 }
