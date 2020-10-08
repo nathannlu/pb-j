@@ -30,13 +30,15 @@ const MenuBar = () => {
 		<div className="MenuBar">
 			<div className="absolute p-4 pt-12 left-0 h-full">
 				<Link to="/">
-					<img src="/logo-white.png" />
+					<img src="/logo.png" />
 				</Link>
+				{/*
 				<div
 					onClick={() => setNavOpen(true)}
 					className="absolute"
 					style={{height: '50px', width: '50px', backgroundColor: 'white', transform: 'translateY(-50%)', top: '50%'}}
 				></div>
+				*/}
 			</div>
 			<div className="line">
 				<div className="background"></div>
@@ -52,6 +54,7 @@ const MenuBar = () => {
 				*/}
 			</div>
 
+			{/*
 			<motion.div
 				animate={navOpen ? 'open' : 'closed'}
 				variants={variants}
@@ -65,6 +68,7 @@ const MenuBar = () => {
 					X
 				</div>
 			</motion.div>
+			*/}
 		</div>
 	)
 };

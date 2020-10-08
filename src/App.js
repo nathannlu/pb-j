@@ -4,6 +4,7 @@ import HttpsRedirect from 'react-https-redirect';
 
 import Landing from './components/Landing';
 import HostGenius from './components/HostGenius';
+import Teamtown from './components/Teamtown';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 					<Switch>
 						<Route exact path="/" component={Landing} />
 						<Route exact path="/work/hostgenius" component={HostGenius} />
+						<Route exact path="/work/teamtown" component={Teamtown} />
 						{/*
 						<Route exact path="/work" component={Work} />
 						<Route exact path="/pricing" component={Pricing} />

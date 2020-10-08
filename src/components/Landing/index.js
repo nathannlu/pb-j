@@ -29,6 +29,7 @@ export default function() {
 				title="Teamtown"
 				description="Dashboard for founders to build their company upon"
 				src="/teamtown-cover.png"
+				url="/work/teamtown"
 			/>
 			<Footer />
 		</>
