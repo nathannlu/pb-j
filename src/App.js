@@ -9,9 +9,8 @@ import Teamtown from './components/Teamtown';
 function App() {
   return (
 		<HttpsRedirect>
-			<Router forceRefresh={true}>
+			<Router basename={process.env.PUBLIC_URL} forceRefresh={true}>
 				<div className="App relative">
-					<Switch>
 						<Route exact path="/" component={Landing} />
 						<Route exact path="/work/hostgenius" component={HostGenius} />
 						<Route exact path="/work/teamtown" component={Teamtown} />
@@ -20,7 +19,6 @@ function App() {
 						<Route exact path="/pricing" component={Pricing} />
 						<Route exact path="/about" component={About} />
 						*/}
-					</Switch>
 				</div>
 			</Router>
 		</HttpsRedirect>
