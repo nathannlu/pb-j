@@ -1,4 +1,9 @@
 .CaseStudiesHeader {
-	padding-top: 12rem;
-	padding-bottom: 18rem;
+	padding: 8rem 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+	.CaseStudiesHeader {
+		padding: 12rem 2.4rem 18rem 2.4rem;
+	}
 }
