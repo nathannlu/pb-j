@@ -1,15 +1,36 @@
 .CaseStudiesItem {
 	position: relative;
 	display: block;
-	margin-left: 7.2rem;
-}
-
-.CaseStudiesItem .main {
-	padding-bottom: 14rem;	
 }
 
 .CaseStudiesItem .container {
-	padding-top: 14rem;
+	padding-top: 6rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.CaseStudiesItem .image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	top: 0;
+}
+
+.CaseStudiesItem .info {
+	position: absolute;
+	display: flex;
+	top: 0;
+	height: 100%;
+	align-items: center;
+}
+
+h3 {
+	color: #ffffff;	
+}
+
+h4 {
+	color: rgba(255,255,255,.5);
 }
 
 .CaseStudiesItem .divider {
@@ -21,24 +42,43 @@
 	background: rgba(0,0,0,.1);
 }
 
-.CaseStudiesItem .image {
-	position: absolute;
-	opacity: 0;
-	width: 100%;
-	top: 0;
-	filter: blur(5px);
-	transition: all .3s;
+@media screen and (min-width: 768px) {
+	.CaseStudiesItem .container {
+		padding-top: 14rem;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.CaseStudiesItem .main {
+		padding-bottom: 14rem;	
+	}
+	.CaseStudiesItem .image {
+		opacity: 0;
+		filter: blur(5px);
+		transition: all .3s;
+	}
+	.CaseStudiesItem .info {
+		position: relative;
+	}
+	.CaseStudiesItem:hover .image {
+		opacity: 1;
+		filter: blur(0);
+	}
+	.CaseStudiesItem h3 {
+		color: #000	
+	}
+	.CaseStudiesItem:hover h3 {
+		color: #ffffff;
+	}
+	.CaseStudiesItem h4 {
+		color: rgba(33,33,33,.5);	
+	}
+	.CaseStudiesItem:hover h4 {
+		color: rgba(255,255,255,.5);
+	}
 }
 
-.CaseStudiesItem:hover .image {
-	opacity: 1;
-	filter: blur(0);
-}
-
-.CaseStudiesItem:hover h3 {
-	color: #ffffff;
-}
-
-.CaseStudiesItem:hover h4 {
-	color: rgba(255,255,255,.5);
+@media screen and (min-width: 1024px) {
+	.CaseStudiesItem {
+		margin-left: 7.2rem;
+	}
 }
