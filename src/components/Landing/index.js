@@ -23,6 +23,7 @@ export default function() {
 				title="ThriveBar"
 				description="Rethinking the accessibility of beauty services."
 				src="/thrivebar-cover.png"
+				url="/work/thrivebar"
 			/>
 			<CaseStudiesItem
 				caption="Design & Development"
