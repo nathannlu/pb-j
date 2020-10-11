@@ -9,6 +9,7 @@ import Thrivebar from './components/Thrivebar';
 
 function App() {
   return (
+		<HttpsRedirect>
 			<Router basename={process.env.PUBLIC_URL} forceRefresh={true}>
 				<div className="App relative">
 						<Route exact path="/" component={Landing} />
@@ -22,6 +23,7 @@ function App() {
 						*/}
 				</div>
 			</Router>
+		</HttpsRedirect>
   );
 }
 
