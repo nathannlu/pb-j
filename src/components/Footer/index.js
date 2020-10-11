@@ -3,12 +3,12 @@ import styles from './style.css';
 
 const Footer = () => {
 	return (
-		<section>
-			<hr />
-			<div className="CaseStudiesHeader">
+		<>
+			<hr style={{marginLeft: '7.2rem'}} />
+			<footer>
 				<div className="container mx-auto flex flex-wrap">
-					<div className="w-1/2">
-						<h2 className="">
+					<div className="w-full md:w-1/2">
+						<h2>
 							Ready to<br /> 
 							work with us?
 						</h2>
@@ -17,8 +17,8 @@ const Footer = () => {
 						</button>
 					</div>
 				</div>
-			</div>
-		</section>
+			</footer>
+		</>
 	)
 };
 

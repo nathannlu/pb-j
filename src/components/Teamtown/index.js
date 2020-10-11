@@ -7,7 +7,7 @@ const HostGenius = () => {
 	return (
 		<div>
 			<MenuBar />
-			<section className="h-screen text-white z-0" style={{backgroundColor: '#455C51', backgroundImage: 'url(/teamtown-hero-pattern.svg', backgroundRepeat: 'no-repeat', backgroundPosition: 'right'}}>
+			<header className="h-screen text-white z-0" style={{backgroundColor: '#455C51', backgroundImage: 'url(/teamtown-hero-pattern.svg', backgroundRepeat: 'no-repeat', backgroundPosition: 'right'}}>
 				<div className="container mx-auto h-full flex items-center">
 					<div className="w-2/3">
 						<h4 className="text-white uppercase pb-6">
@@ -18,7 +18,7 @@ const HostGenius = () => {
 						</h1>
 					</div>
 				</div>
-			</section>
+			</header>
 			<section className="py-32 container mx-auto">
 				<div className="w-2/3 mx-auto">
 					<h3 className="pb-8">

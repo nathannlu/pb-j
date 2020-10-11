@@ -1,44 +1,44 @@
 import React from 'react'; 
 import MenuBar from '../MenuBar';
 import Footer from '../Footer';
-
+import './style.css';
 
 const HostGenius = () => {
 	return (
 		<div>
 			<MenuBar />
-			<section className="h-screen text-white" style={{backgroundImage:'url(/hostgenius-hero.png)', backgroundSize: 'cover'}}>
-			<div className="container mx-auto h-full flex items-center">
-				<div className="w-2/3">
-					<h4 className="text-white uppercase pb-6">
-						Design & Development 
-					</h4>
-	
-					<h1>
-						A brand revamp that demystifies HostGenius’ mission.
-					</h1>
+			<header className="h-screen text-white" style={{backgroundImage:'url(/hostgenius-hero.png)', backgroundSize: 'cover'}}>
+				<div className="container mx-auto h-full flex items-center">
+					<div className="w-full md:w-2/3">
+						<h4 className="text-white uppercase pb-6">
+							Design & Development 
+						</h4>
+		
+						<h1>
+							A brand revamp that demystifies HostGenius’ mission.
+						</h1>
 
-						{/*
-						<motion.h1 
-							className="text-white"
-							initial={{y:72*1.2}}
-							animate={{y:0}}
-						>
-							experiences for
-						</motion.h1>
-						<motion.h1 
-							className="text-white"
-							initial={{y:72*1.2}}
-							animate={{y:0}}
-						>
-						 tomorrow’s brands.
-						</motion.h1>
-						*/}
+							{/*
+							<motion.h1 
+								className="text-white"
+								initial={{y:72*1.2}}
+								animate={{y:0}}
+							>
+								experiences for
+							</motion.h1>
+							<motion.h1 
+								className="text-white"
+								initial={{y:72*1.2}}
+								animate={{y:0}}
+							>
+							 tomorrow’s brands.
+							</motion.h1>
+							*/}
+					</div>
 				</div>
-			</div>
-		</section>
+			</header>
 			<section className="py-32 container mx-auto">
-				<div className="w-2/3 mx-auto">
+				<div className="w-full md:w-2/3 mx-auto">
 					<h3 className="pb-8">
 						Helping HostGenius Expand with a Strong Brand.
 					</h3>
@@ -62,7 +62,7 @@ const HostGenius = () => {
 				</div>
 			</div>
 			<section className="py-32 container mx-auto">
-				<div className="w-2/3 mx-auto">
+				<div className="w-full md:w-2/3 mx-auto">
 					<h3 className="pb-8">
 						Aligning website with their brand.
 					</h3>
@@ -79,7 +79,7 @@ const HostGenius = () => {
 				<img className="w-full" src="/hostgenius-asset-7.png" />	
 			</div>
 			<section className="py-32 container mx-auto">
-				<div className="w-2/3 mx-auto">
+				<div className="w-full md:w-2/3 mx-auto">
 					<h3 className="pb-8">
 						Conclusion
 					</h3>
