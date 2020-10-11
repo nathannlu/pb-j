@@ -21,18 +21,6 @@ html {
   font-size: 50%;
 }
 
-@media only screen and (min-width: 576px) {
-  html {
-    font-size: 56.25%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
 body {
   box-sizing: border-box;
 	font-family: "Suisse Int'l", sans-serif;
@@ -43,25 +31,25 @@ body {
 }
 
 h1 {
-  font-size: 7.2rem;
-  line-height: 7.9rem;
 	font-family: "Suisse Int'l", sans-serif;
+	font-size: 3.8rem;
+	line-height: 4.4rem;
 	font-weight: 500;
 	color: #ffffff;
 }
 
 h2 {
-  font-size: 7.2rem;
-  line-height: 7.9rem;
 	font-family: "Suisse Int'l", sans-serif;
+	font-size: 3.8rem;
+	line-height: 4.4rem;
 	font-weight: 500;
 	color: #212121;
 }
 
 h3 {
 	font-family: "Suisse Int'l", sans-serif;
-  font-size: 3.4rem;
-  line-height: 4.4rem;
+	font-size: 3.2rem;
+	line-height: 4rem;
 	font-weight: 500;
 	color: #212121;
 	transition: all .3s;
@@ -69,10 +57,12 @@ h3 {
 
 h4 {
 	font-family: "Suisse Int'l", sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
+	font-size: 1.4rem;
+	line-height: 2rem;
 	color: rgba(33,33,33,.5);
 	font-weight: 500;
+	text-transform: uppercase;
+
 	transition: all .3s;
 }
 
@@ -83,6 +73,57 @@ h5 {
 	color: #19212C;
 }
 
-section {
-	padding-left: 7.2rem;
+header {
+	padding-left: 2.4rem;
+	padding-right: 2.4rem;
+}
+
+section{
+	padding: 8rem 2.4rem;
+}
+
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+	h1 {
+		font-size: 6.4rem;
+		line-height: 7rem;
+	}
+	h2 {
+		font-size: 6.4rem;
+		line-height: 7rem;
+	}
+	h3 {
+	  font-size: 3.4rem;
+		line-height: 4.4rem;	
+	}
+	h4 {
+		font-size: 1.4rem;
+		line-height: 1.8rem;
+	}
+	section {
+		padding: 12rem 2.4rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	h1 {
+	  font-size: 7.2rem;
+		line-height: 7.9rem;
+	}
+	h2 {
+		font-size: 7.2rem;
+		line-height: 7.9rem;
+	}
+	header {
+		padding-left: 9.6rem;
+	}
 }

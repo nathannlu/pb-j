@@ -24,9 +24,9 @@ const TextReveal = props => {
 
 const Header = () => { 
 	return (
-		<section className="h-screen text-white" style={{backgroundColor: '#212121'}}>
+		<header className="h-screen text-white" style={{backgroundColor: '#212121'}}>
 			<div className="container mx-auto h-full flex items-center">
-				<div className="w-2/3">
+				<div className="md:w-4/5 lg:w-2/3">
 					<h4 className="text-white pb-6">
 						Hi there, we're pb+j creative.
 					</h4>
@@ -59,7 +59,7 @@ const Header = () => {
 						*/}
 				</div>
 			</div>
-		</section>
+		</header>
 	)
 }
 

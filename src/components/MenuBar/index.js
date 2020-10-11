@@ -27,7 +27,7 @@ const MenuBar = () => {
 	})
 
 	return (
-		<div className="MenuBar">
+		<div className="MenuBar hidden lg:block">
 			<div className="absolute p-4 pt-12 left-0 h-full">
 				<Link to="/">
 					<img src="/logo.png" />
